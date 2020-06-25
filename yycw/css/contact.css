@@ -1,0 +1,256 @@
+@charset "utf-8";
+/*头部*/
+.head{
+	height: 90px;
+	border-top:5px solid #09238B;
+	border-bottom:1px solid #CCCCCC;
+}
+.head .hd_content{
+	height: 80px;
+	position: relative;
+}
+.head h1{
+	float: left;
+	margin-top:13px;
+}
+.head .nav{
+	float: right;
+	margin-top: 51px;
+	margin-right:10px;
+}
+.head .nav li{
+	float: left;
+}
+
+.head .nav li a{
+	font-size:14px;
+	color:#333333;
+	font-family: '微软雅黑';
+	padding-left: 25px;
+}
+.head .hd_content p {
+	width: 137px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	font-size: 0;
+	font-family: '微软雅黑';
+	color:#fff;
+	background-color: #09238B;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	position: absolute;
+	right: 0; top:0;
+}
+.head .hd_content p a{
+	color: #fff;
+	font-size: 12px;
+}
+.head .hd_content p span{
+	font-size: 12px;
+	padding:0 9px;
+}
+.head .nav .active a{
+	color:#0F298D;
+	font-weight: bold;
+}
+/*内容 导航*/
+.nav{
+	height: 39px;
+	line-height: 39px;
+	padding-left:1px;
+	font-family:'微软雅黑';
+	font-size: 14px;
+	color:#000;
+}
+.nav li{
+	float: left;
+}
+.nav li a{
+	color:#000;
+}
+.nav li span{
+	padding:0 5px;
+}
+/*中间内容*/
+.content{
+	width: 100%;
+	background: url(../images/bj.png) repeat-x;
+}
+.content .left{
+	padding-top: 38px;
+	padding-right: 32px;
+	float: left;
+}
+.content .left li{
+	height: 39px;
+	line-height: 39px;
+	font-family:'微软雅黑';
+	width: 200px;
+	border-bottom: 1px solid #ccc;
+}
+.content .left li h4{
+	font-size: 24px;
+	color:#0F298D;
+}
+.content .left li a{
+	font-size: 14px;
+	color:#272727;
+}
+.content .left li span{
+	padding-right: 8px;
+	color: #7C7C7C;
+}
+.content .left .active a{
+	color:#000;
+	font-weight: bold;
+}
+.content .left .active span{
+	color:#10298E;
+}
+.content .right{
+	float: left;
+	padding-top: 40px;
+	margin-bottom: 50px;
+}
+.content .right .title h4{
+	font-family:'微软雅黑';
+	font-size: 20px;
+	color:#000;
+	height: 36px;
+	line-height: 36px;
+	border-bottom: 1px solid #ccc;
+	width: 770px;
+	margin-bottom: 18px;
+}
+.content .right .text{
+	height: 201px;
+}
+.content .right .text ul{
+	float: left;
+	margin-top: 27px;
+	margin-right: 140px;
+}
+.content .right .text ul li{
+	height: 30px;
+	line-height: 30px;
+	font-family:'微软雅黑';
+	font-size: 12px;
+	color:#272727;
+}
+.content .right .text .tt_title{
+	font-size: 14px;
+	font-weight: bold;
+}
+.content .right .text .img2{
+	float: left;
+}
+.content .right .text p{
+	float: right;
+	line-height: 201px;
+	padding-right: 5px;
+	font-family:'微软雅黑';
+	font-size: 18px;
+	color:#112161;
+}
+/*底部*/
+.foot{
+	width: 100%;
+	height: 296px;
+	border-top:4px solid #09238B;
+	background-color:#5F5F5F;
+}
+.foot .top{
+	margin-bottom: 35px;
+}
+.foot .top ul{
+	float: left;
+	margin-top: 17px;
+}
+.foot .top li{
+	float: left;
+	width: 143px;
+}
+.foot .top li h4{
+	height: 42px;
+	line-height: 42px;
+	font-family: '微软雅黑';
+	font-size:12px;
+	color:#fff;
+	border-bottom:1px solid #888888;
+	margin-bottom:3px;
+}
+.foot .top li a{
+	font-family: '微软雅黑';
+	font-size:12px;
+	color:#CBCBCB;
+	line-height: 30px;
+}
+.foot .top .float{
+	float: right;
+	width: 287px;
+}
+.foot .top .float h4{
+	padding-left:100px;
+}
+.foot .top .float .code{
+	width: 195px;
+	float: right;
+	font-family: '微软雅黑';
+	font-size:12px;
+	color:#CBCBCB;
+	margin-top:20px;
+}
+.foot .top .float .code p{
+	float: left;
+	margin-top: 10px;
+	width: 84px;
+	text-align:center;
+}
+.foot .top .float .code .text1{
+	margin-right:25px;
+}
+.foot .top .float span{
+	display:inline-block;
+	width: 84px;
+	height: 84px;
+	background:url(../images/ewm1.png);
+	margin-right:25px;
+}
+.foot .top .float em{
+	display:inline-block;
+	width: 84px;
+	height: 84px;
+	background:url(../images/ewm2.png);
+}
+.foot .border span{
+	display:inline-block;
+	background:url(../images/xian.png);
+	width: 100%;
+	height: 2px;
+}
+.foot .bottom{
+	height: 35px;
+	line-height:35px;
+	font-family: '微软雅黑';
+	font-size:12px;
+	color:#CBCBCB;
+}
+.foot .bottom .bt_lt{
+	float: left;
+}
+.foot .bottom .bt_lt span{
+	margin-right:13px;
+}
+.foot .bottom .bt_rt{
+	float: right;
+	font-size: 0;
+}
+.foot .bottom .bt_rt a{
+	font-size:12px;
+	color:#CBCBCB;
+}
+.foot .bottom .bt_rt span{
+	font-size:12px;
+	padding:0 9px;
+}
